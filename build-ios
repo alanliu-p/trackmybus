@@ -100,5 +100,6 @@ sleep 15s
 # set the Bundle Identifier in xcode: Targets > Track My Bus > General > Identity
 # set the Version and Build in xcode: Targets > Track My Bus > General > Identity
 # set design_resources/icon-1024.png as the 1024 x 1024 app icon in xcode: Targets > Track My Bus > General 
+# set Privacy - Location When In Use Usage Description to `Enable location services to ensure the accuracy of your location and stops near you.`
 # achive in xcode
 
