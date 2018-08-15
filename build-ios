@@ -35,11 +35,6 @@ rm -fr app/lib platforms plugins www
 npm install
 
 # =======================
-# keys and settings for firebase
-# =======================
-cp ~/Downloads/GoogleService-Info.plist ~/git/trackmybus/platforms/ios/Track\ My\ Bus/Resources
-
-# =======================
 # reinstall cordova plugins
 # =======================
 
@@ -91,6 +86,11 @@ sleep 15s
 ./node_modules/.bin/cordova plugin add cordova-plugin-inappbrowser@1.7.2
 sleep 15s
 ./node_modules/.bin/cordova plugin add cordova-plugin-customurlscheme@4.3.0 --variable URL_SCHEME=attrackmyride
+
+# =======================
+# keys and settings for firebase
+# =======================
+cp ~/Downloads/GoogleService-Info.plist ~/git/trackmybus/platforms/ios/Track\ My\ Bus/Resources
 
 # =======================
 # build for iOS
